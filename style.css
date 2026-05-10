@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 20px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.heading-area h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.menu-icon {
+  font-size: 32px;
+  cursor: pointer;
+}
