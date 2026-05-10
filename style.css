@@ -17,13 +17,13 @@ body {
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   object-fit: contain;
 }
 
 .heading-area h1 {
-  font-size: 36px;
+  font-size: 32px;
   margin: 0;
 }
 
