@@ -17,7 +17,6 @@ body {
 
 .topbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 
   padding: 15px 20px;
@@ -32,6 +31,8 @@ body {
 }
 
 ..heading-area h1 {
+  flex: 1;
+  text-align: center;
   font-size: 1.75rem;
   line-height: 1.2;
   font-weight: 700;
