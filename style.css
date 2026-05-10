@@ -23,7 +23,7 @@ body {
 }
 
 .heading-area h1 {
-  font-size: 30px;
+  font-size: 28px;
   margin: 0;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .hero-image {
   width: 100%;
-  border-radius: 1px;
+  border-radius: 12px;
   margin-bottom: 20px;
 }
 
