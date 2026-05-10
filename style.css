@@ -1,3 +1,12 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 body {
   margin: 0;
   padding: 0;
@@ -22,9 +31,12 @@ body {
   object-fit: contain;
 }
 
-.heading-area h1 {
-  font-size: 32px;
+..heading-area h1 {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  font-weight: 700;
   margin: 0;
+  white-space: nowrap;
 }
 
 .menu-icon {
