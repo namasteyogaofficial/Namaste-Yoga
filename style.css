@@ -17,14 +17,15 @@ body {
 }
 
 .logo {
-  width: 64px;
-  height: 64px;
+  width: 55px;
+  height: 55px;
   object-fit: contain;
 }
 
-.heading-area h1 {
-  font-size: 32px;
-  margin: 0;
+.brand-text{
+   height:36px;
+   width:auto;
+   display:block;
 }
 
 .menu-icon {
