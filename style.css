@@ -141,31 +141,32 @@ width: fit-content;
     opacity: 0.85;
 }
 
-.ai-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+.a-button {
+    text-align: center;
+    line-height: 1.4;
+    padding: 10px 16px;
+    position: absolute;
+    right: 20px;
+    top: 20%;
+    transform: translateY(-50%);
 
-    background: #000;
+    background: black;
     color: white;
     text-decoration: none;
 
-    padding: 14px 20px;
-    border-radius: 999px;
+    padding: 10px 16px;
+    border-radius: 25px;
 
-    font-weight: 700;
-    font-size: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+
+    white-space: nowrap;
 }
-
+  
 .arrow-icon {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-
-    transform: rotate(0deg);
+    display: inline-flex;
+    align-items: center;
     margin-left: 6px;
-    margin-bottom: 1px;
+    transform: translateY(1px);
 }
