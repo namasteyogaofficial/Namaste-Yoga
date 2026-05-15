@@ -167,6 +167,6 @@ width: fit-content;
 .arrow-icon {
     display: inline-flex;
     align-items: center;
-    margin-left: 2px;
+    margin-left: 0px;
     transform: translateY(1px);
 }
