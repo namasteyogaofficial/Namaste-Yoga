@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Namaste Yoga</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+
+</div>
+
+    <!-- left Menu -->
+    <div class="menu-icon">
+      ☰
+    </div>
+    
+    <div class="heading-area">
+
+  <a href="index.html">
+    <img src="logo.png" class="brand-text" alt="Namaste Yoga">
+  </a>
+
+<a href="ai.html" class="ai-button">
+  Try AI Yoga<br>
+  Teacher
+  <span class="arrow-icon">
+    <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true">
+      <path d="M7 17L17 7M17 7H9M17 7V15"
+        stroke="white"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+    </svg>
+  </span>
+</a>
+
+  </header>
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+  <img src="corporateyoga.jpg" alt="Corporate Yoga Session" class="hero-image">
+
+  <div class="intro-text">
+
+    <p>
+      <strong>Namaste Yoga</strong> is an online platform which provides free educational yoga content to users all over the world.
+    </p>
+
+    <p>
+      For those seeking personalized guidance, we also offer paid premium yoga workout & diet plans tailored to your exact needs.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="learning-section-card">
+    <span>Free Learning Section</span>
+</section>
+
+<section class="search-section">
+  <div class="search-container">
+    <input
+      type="text"
+      class="search-input"
+      placeholder="Search"
+    >
+<button class="search-button">
+  <svg class="search-svg" viewBox="0 0 24 24">
+    <circle cx="10" cy="10" r="6" stroke="white" stroke-width="2.5" fill="none"/>
+    <line x1="14.5" y1="14.5" x2="20" y2="20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  </svg>
+</button>
+    
+  </div>
+</section>
+
+<section class="video-learning-grid">
+  
+  <!-- Read indexhtml.txt notes if confused about SEO, cleanliness, scalability and why titles aren't showing, keep only 4-6 video cards here, max 10 cuz this html is already gigantic-->
+  
+  <div class="video-grid" id="videoGrid">
+
+    <!-- SEO PRELOAD CARD 1 -->
+    <a href="/video1.html" class="video-card">
+      <div class="video-preview-wrapper">
+        <div class="play-icon">▶</div>
+        <div class="video-duration">12:43</div>
+
+        <img
+          src="assets/thumbs/logo1.png"
+          alt="Yogi bear"
+          class="video-thumb"
+          loading="lazy"
+        >
+
+        <video
+          class="preview-video"
+          muted
+          loop
+          playsinline
+          preload="none"
+        >
+          <source src="assets/previews/preview.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <h3>Yoga bear</h3>
+    </a>
+
+    <!-- SEO PRELOAD CARD 2 -->
+    <a href="/video2.html" class="video-card">
+      <div class="video-preview-wrapper">
+        <div class="play-icon">▶</div>
+        <div class="video-duration">12:43</div>
+
+        <img
+          src="assets/thumbs/logo1.png"
+          alt="Morning Stretch Routine"
+          class="video-thumb"
+          loading="lazy"
+        >
+
+        <video
+          class="preview-video"
+          muted
+          loop
+          playsinline
+          preload="none"
+        >
+          <source src="assets/previews/preview.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <h3>Morning Stretch Routine</h3>
+    </a>
+
+    <!-- SEO PRELOAD CARD 3 -->
+    <a href="/video3.html" class="video-card">
+      <div class="video-preview-wrapper">
+        <div class="play-icon">▶</div>
+        <div class="video-duration">12:43</div>
+
+        <img
+          src="assets/thumbs/logo1.png"
+          alt="Pranayama Basics"
+          class="video-thumb"
+          loading="lazy"
+        >
+
+        <video
+          class="preview-video"
+          muted
+          loop
+          playsinline
+          preload="none"
+        >
+          <source src="assets/previews/preview.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <h3>Pranayama Basics</h3>
+    </a>
+
+    <!-- SEO PRELOAD CARD 4 -->
+    <a href="/video4.html" class="video-card">
+      <div class="video-preview-wrapper">
+        <div class="play-icon">▶</div>
+        <div class="video-duration">12:43</div>
+
+        <img
+          src="assets/thumbs/logo1.png"
+          alt="Yoga for Weight Loss"
+          class="video-thumb"
+          loading="lazy"
+        >
+
+        <video
+          class="preview-video"
+          muted
+          loop
+          playsinline
+          preload="none"
+        >
+          <source src="assets/previews/preview.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <h3>Yoga for Weight Loss</h3>
+    </a>
+
+  </div>
+
+  <nav class="pagination" id="pagination"></nav>
+</section>
+
+<section class="explore-section">
+  <h2>How can we help you today?</h2>
+
+  <div class="explore-grid">
+    <a href="#" class="explore-card">
+      <img src="icons/nutrition.svg" alt="Nutrition">
+      <p>Personalized Yoga and Diet Plan</p>
+    </a>
+
+    <a href="#" class="explore-card">
+      <span>🩺</span>
+      <p>Try Namaste Yoga AI for free</p>
+    </a>
+
+    <a href="#" class="explore-card">
+      <span>💻</span>
+      <p>Corporate Wellness Program</p>
+    </a>
+    
+        <a href="#" class="explore-card">
+      <span>📞</span>
+      <p>Book a Yoga<br>E-Consultation</p>
+    </a>
+    
+    <a href="#" class="explore-card">
+      <span>📞</span>
+      <p>Yoga for Weight/ Fat Loss</p>
+    </a>
+    
+    <a href="#" class="explore-card">
+      <span>🤖</span>
+      <p>Yoga for Stress Management</p>
+    </a>
+    
+  </div>
+</section>
+
+<section>
+  
+<h2 class="personalized-section-card">
+  <span class="title-line-1">Personalized Yoga</span>
+  <span class="title-line-2">Workout and Diet Plan</span>
+</h2>
+
+  <div class="personalized-subtext">
+    
+     <p>To achieve your health and fitness goals, it is very important to do exercise/ yoga and eat a balanced diet, but which exercises or yoga poses to do? what to eat? how much to eat?</p>
+      
+      <p>Each one of us has different:</p>
+      
+      <ul>
+  <li>height</li>
+  <li>weight</li>
+  <li>age</li>
+  <li>activity levels</li>
+</ul>
+      
+<p>so naturally, our exercise and dietary needs are different as well.</p>
+
+<p>But it's not easy to track your exact needs for a beginner/ busy individual. Moreover, one might have certain health conditions and may not know if certain exercises/ yoga poses may do more harm than good.</p>
+
+<p>And that's where we come to solve these problems. We create personalized yoga workout and diet plans based on your exact goals, lifestyle, and health needs.</p>
+
+<p>Click below to order your Personalized Yoga Workout and Diet Plan</p>
+
+  </div>
+  
+   <a href="#personalized-plan" class="cta-button">
+  Order a Personalized <br>
+  Yoga Workout & Diet Plan
+</a>
+  
+  </section>
+  
+<!-- use this format for comments-->
+
+<script src="assets/js/videos.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
